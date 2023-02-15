@@ -18,7 +18,8 @@ class DevelopmentConfig(Config):
 class ProductionConfig(Config):
     pass
 
-environment = os.environ.get("FLASK_ENV")
+
+environment = os.environ.get("FLASK_DEBUG")
 
 if environment:
     app_config = DevelopmentConfig() # -> connecting from Main to app configuration on config.py 
