@@ -1,0 +1,21 @@
+configuration links  -> https://edstem.org/au/courses/10081/lessons/27621/slides/195168
+                        https://flask.palletsprojects.com/en/2.2.x/config/
+                    
+- .env 
+-.flaskenv
+- configuration.py
+-python3 -m venv venv -> git init && echo 'venv/' > .gitignore ->  
+- pip3 install flask 
+- create requeriments.txt and then install 
+        pip install -r requirements.txt 
+
+
+1. Set up your flask app 
+ - configuration of the app 
+ - design for development 
+ - we will create and activate virtual enviroment 
+ - add flask to requirement file 
+ - pip install dependencies using requeriments
+ - config app 
+ - need to setup my app with file name main.paydefine FLASK_APP eviroment 
+ - create funtion to initialize app ( config.app_config )
