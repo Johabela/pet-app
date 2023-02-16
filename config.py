@@ -4,7 +4,7 @@ class Config(object):
     SQLALCHEMY_TRACK_MODIFICATION= False
     
     @property
-    def SQLALCHEMY_DATABASE_URl(self):
+    def SQLALCHEMY_DATABASE_URI(self):
         db_url = os.environ.get("DATABASE_URL")
 
         if not db_url:
